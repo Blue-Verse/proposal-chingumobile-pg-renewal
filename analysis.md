@@ -108,4 +108,116 @@ job:
 
 ## 6. 최종 산출물
 
-(8단계 완료 후 추가 예정)
+### 제안서 사이트 URL
+https://proposal-router.claude-ai-b27.workers.dev/proposal-chingumobile-pg-renewal/
+
+### 지원 금액
+7,200,000원
+
+### 지원 기간
+60일
+
+### 클라이언트 질문 답변
+해당 없음
+
+### 지원 내용
+
+안녕하세요, PHP 기반 기존 웹사이트 PG연동 및 디자인 리뉴얼 프로젝트에 지원합니다.
+
+본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다. 아래 링크에서 확인해 주시면 감사하겠습니다.
+▶ 제안서 상세 페이지: https://proposal-router.claude-ai-b27.workers.dev/proposal-chingumobile-pg-renewal/
+▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/
+
+---
+
+<프로젝트 진행 제안>
+
+■ 프로젝트 분석
+- 외국인 전문 알뜰폰 서비스 웹사이트(chingumobile.com)의 결제 시스템 연동 및 디자인 리뉴얼 프로젝트
+- 현재 XE CMS 기반 PHP 사이트로 운영 중이며, 4개 언어(한/영/중/베트남어) 다국어 지원
+- 나이스페이 + PayPal 이중 결제 시스템 연동이 핵심 과업
+- 결제 시스템 우선 완료 후, 디자인 리뉴얼 순차 진행하는 전략 채택
+
+■ 작업 일정
+
+[Phase 1: 기획/설계] Day 1–10
+- 요구사항 상세 정의, 화면 설계
+- PG 연동 아키텍처 설계, DB 스키마 설계
+
+[Phase 2: 결제 시스템 연동] Day 8–30
+- 나이스페이 PG 결제 연동 (신용카드, 계좌이체, 가상계좌)
+- PayPal Checkout 글로벌 결제 연동
+- 결제 콜백, 취소/환불 처리
+
+[Phase 3: UI/UX 디자인] Day 15–35
+- 벤치마킹 사이트 분석 및 Figma 디자인
+- 반응형 디자인 (PC + 모바일)
+
+[Phase 4: 디자인 적용 개발] Day 30–50
+- 승인된 디자인 퍼블리싱 적용
+- 결제 UI 통합, 반응형 대응
+
+[Phase 5: QA/배포] Day 48–60
+- 결제 실거래 테스트, 크로스브라우저 테스트
+- 운영 서버 배포, 인수인계
+
+■ 마일스톤 및 산출물
+- M1 (Day 10): 설계 완료 — 요구사항 정의서, PG 연동 설계서
+- M2 (Day 30): 결제 연동 완료 — 나이스페이 + PayPal 테스트 결제 성공
+- M3 (Day 35): 디자인 확정 — Figma 디자인 원본 승인
+- M4 (Day 50): 개발 완료 — 디자인 적용 + 결제 통합
+- M5 (Day 60): 최종 오픈 — 운영 배포, 실거래 테스트 통과
+
+■ 미팅 시 협의 필요 사항
+- 벤치마킹 사이트 (디자인 리뉴얼 참고 대상) 확인
+- 나이스페이 PG사 계약 정보 및 테스트 키 수령 일정
+- PayPal Business 계정 준비 현황
+- 기존 XE CMS 서버 접근 권한 및 개발 환경 세팅
+- 결제 수단별 우선순위 (카드, 계좌이체, 가상계좌 등)
+
+---
+
+<유사 프로젝트 진행 경험>
+
+▶ P2P 크라우드 펀딩 플랫폼 (2019.12~2020.01)
+- 프로젝트 유형: 핀테크 / P2P 대출 / 크라우드펀딩
+- 핵심 기능: NICE 본인인증 4개 프로토콜 연동, Seyfert/PayGate 결제 연동, 가상계좌 자동화, 15+ 외부 API 연동
+- 유사점: NICE 계열 PG사 연동 실전 경험, 결제 콜백/환불 처리, UI/UX 리뉴얼
+- 기술 스택: Python, Django, MySQL, jQuery, AWS
+
+▶ 필라테스 프랜차이즈 관리 플랫폼 (2019.09~2019.12)
+- 프로젝트 유형: B2B2C / 피트니스 / O2O
+- 핵심 기능: 수강권 결제, 예약 시스템, CRM, 3 플랫폼(Android/iOS/웹) 동시 출시
+- 유사점: 결제 연동, 반응형 웹, 기획~배포 Full-scope 수행
+- 기술 스택: React Native, React, Node.js, JavaScript
+
+▶ VC 펀드 관리 플랫폼 (2023.11~2024.12)
+- 프로젝트 유형: 핀테크 / VC / 펀드 관리
+- 핵심 기능: NICE KYC 연동, 결재 워크플로우, 50+ 페이지, 200-300+ API
+- 유사점: NICE 계열 인증/결제 연동, 대규모 웹 플랫폼, 보안 처리
+- 기술 스택: Next.js, NestJS, MySQL, AWS
+
+---
+
+<사용 기술과 툴>
+
+▶ 개발 기술
+- PHP, MariaDB, HTML/CSS/JavaScript, jQuery
+- 나이스페이 API, PayPal API
+- XE CMS, Figma
+
+▶ 개발 도구 및 인프라
+- 버전 관리: GitHub
+- CI/CD: GitHub Actions
+- 컨테이너: Docker
+
+▶ 커뮤니케이션
+- 일일 진행 공유: Slack 또는 카카오톡
+- 주간 미팅: Zoom / Google Meet
+- 문서 공유: Notion 또는 Google Docs
+- 이슈 트래킹: GitHub Issues
+
+### 관련 포트폴리오 추천
+1. **P2P 크라우드 펀딩 플랫폼** — NICE 계열 PG 결제 연동 + UI/UX 리뉴얼 경험
+2. **필라테스 프랜차이즈 관리 플랫폼** — 결제 연동 + 반응형 웹 + Full-scope 개발
+3. **VC 펀드 관리 플랫폼 (Series-B)** — NICE KYC 연동 + 대규모 웹 플랫폼 보안
